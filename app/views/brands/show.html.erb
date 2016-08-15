@@ -1,0 +1,18 @@
+<p>
+  <strong>Name:</strong>
+  <%= @brand.name %>
+</p>
+<p>
+  <strong>Country:</strong>
+  <%= @brand.country %>
+</p>
+
+<h2>Models:</h2>
+<ul>
+  <%= render @brand.models %>
+</ul>
+
+<h2>Add a model:</h2>
+<%= render 'models/form' %>
+
+<%= link_to 'Edit', edit_brand_path(@brand) %> | <%= link_to 'Back', brands_path %>

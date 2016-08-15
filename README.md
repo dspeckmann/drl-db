@@ -1,6 +1,6 @@
 # drl-db
 
-A website for finding images of daytime running lights of various cars.
+A website for finding images of daytime running lights (and maybe regular headlights) of various cars.
 
 ## To-do
 
